@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>huevos</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#BDEAE0">
+<center>
+<table width="1603" height="792" border="0">
+<th height="137" colspan="3">
+  <center>
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a href="index.html">INICIO</a>        </li>
+      <li><a href="AYUDA.html">AYUDA</a></li>
+      <li><a class="MenuBarItemSubmenu" href="#">PRODUCTOS</a>
+        <ul>
+          <li><a href="frutasyverduras.html">FRUTAS Y VERDURAS</a>            </li>
+          <li><a href="lácteos y pan.html">L&Aacute;CTEOS Y PAN</a></li>
+          <li><a href="carnes.html">DE CARNES Y EMBUTIDOS</a></li>
+          <li><a href="dulces.html">DULCES(HELADOS, GASEOSAS, ETC)</a></li>
+        </ul>
+      </li>
+      <li><a href="servicio al cliente.html">SERVICIO AL CLIENTE</a></li>
+</ul>
+  </center>
+  </th>
+  <tr bgcolor="#ECFDE8">
+    <td width="588" height="260"><img src="huevos.png" width="500" height="500" /></td>
+    <td width="1005" rowspan="2" bgcolor="#FFE6EB"><p class="inf">Producto: huevo </p>
+      <p class="inf">Marca: La Gallinita</p>
+      <p class="inf">Cantidad o unidades por paquete: 4</p>
+      <p class="inf">Disponible:+100      </p>
+      <form id="form1" name="form1" method="post" action="mailto:valeria.camarena.salinas@gmail.com">
+        <table width="895" border="0">
+          <tr class="inf">
+            <td width="637"><label for="productos">Cantidad de paquetes a solicitar:</label></td>
+            <td width="248"><input name="cantproductohuev" type="text" class="inf" id="productos" size="3" maxlength="4" /></td>
+          </tr>
+          <tr>
+            <td class="inf">¿Desea más productos como este?</td>
+            <td class="inf"><input type="radio" name="radio" id="si" value="si" />
+              <label for="sisi">Sí
+                <input type="radio" name="radio" id="no" value="no" />
+              No</label></td>
+          </tr>
+          <tr>
+            <td height="50" class="inf">Distrito</td>
+            <td class="inf"><label for="direc"></label>
+              <label for="direc"></label>
+              <select name="direc" id="direc">
+                <option>Lima</option>
+                <option>Chorrillos</option>
+                <option>San Juan de Miraflores</option>
+                <option>Barranco</option>
+                <option>Surco</option>
+              </select>
+              <label for="direc2"><br />
+              </label></td>
+          </tr>
+          <tr>
+            <td height="58" class="inf">Dirección</td>
+            <td class="inf"><textarea name="direc2" id="direc2"></textarea></td>
+          </tr>
+          <tr>
+            <td height="72" class="inf">&nbsp;</td>
+            <td class="inf"><input name="button" type="submit" class="inf" id="button" value="Enviar" /></td>
+          </tr>
+          </table>
+        <p>&nbsp;</p>
+      </form>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td height="106" bgcolor="#FAF4E4" class="PRECIOU">S/. 2.00</td>
+  </tr>
+</table>
+</center>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
